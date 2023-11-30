@@ -160,3 +160,33 @@ footer {
         margin-left: 0%;
       }
 }
+.footbutton {
+    min-height: 15px;
+    width: 24%;
+    border-radius: 5px 20px 20px 20px;
+    background-image: linear-gradient(to right, #D8D9D9, #A4A5A5, #6E6E6E);
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    padding: 1px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;   
+}
+.footbutton:hover {
+    background-image: linear-gradient(to left, #1D1D1C, #000000);
+    color: #ffffff;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+}
+footer a:visited {
+    text-decoration: none;
+}
+footer a:active {
+    text-decoration: none;
+}

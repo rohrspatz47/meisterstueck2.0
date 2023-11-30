@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startseite</title>
     <link rel="stylesheet" href="./Style/style-light.css">
+    <link rel="stylesheet" href="./Style/style-oben.css">
+    <script src="./Logic/suche.js"></script>
 </head>
 <body>
     <div class="container">
@@ -37,7 +39,7 @@
                         <img src="./Assets/home.png" class="rechtsbild">
                     </a>
                     <a href="">
-                        <img src="./Assets/search.png" class="rechtsbildsearch">
+                        <img src="./Assets/search.png" class="rechtsbildsearch" id="suche">
                     </a>
                     <a href="nachrichten.html">
                         <img src="./Assets/newmessage.png" class="rechtsbildmessage">
@@ -107,9 +109,21 @@
         <hauptinhalt>
             <fieldset class="rahmen">
                 <legend>
-                    Inhaltskram
+                    Nachrichtenkram
                 </legend>
-
+                <div id="cover">
+                    <form method="get" action="">
+                      <div class="tb">
+                        <div class="td"><input type="text" placeholder="Search" required></div>
+                        <div class="td" id="s-cover">
+                          <button type="submit">
+                            <div id="s-circle"></div>
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
             </fieldset>
         </hauptinhalt>
         <footer>
